@@ -28,6 +28,16 @@ namespace TiposVariaveis
             Console.WriteLine(oito);
             Console.WriteLine(nove);
 
+            float a = 0.5f;
+            float b = 1.5f;
+            float c = 2.5f;
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            
+
+
 
         }
     }
