@@ -18,6 +18,16 @@ namespace TiposVariaveis
             Console.WriteLine(quatro);
             Console.WriteLine(cinco);
 
+            char seis = '\u0036';
+            char sete = '\u0037';
+            char oito = '\u0038';
+            char nove = '\u0039';
+
+            Console.WriteLine(seis);
+            Console.WriteLine(sete);
+            Console.WriteLine(oito);
+            Console.WriteLine(nove);
+
 
         }
     }
