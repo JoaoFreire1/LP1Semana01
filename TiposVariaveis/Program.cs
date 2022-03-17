@@ -35,6 +35,12 @@ namespace TiposVariaveis
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
+
+            bool True = true;
+            bool False = false;
+
+            Console.WriteLine(True);
+            Console.WriteLine(False);
             
 
 
