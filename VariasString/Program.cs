@@ -20,9 +20,12 @@ namespace VariasString
 
             string concatenacao = "Isto " + "são " + 2 + " strings";
             string interpolacao = $"{a} mais {b} é igual a {c}";
+            String.Format("Frase escrita com Format");
 
             Console.WriteLine (concatenacao);
             Console.WriteLine (interpolacao);
+            Console.WriteLine ("Esta frase foi diretamente escrita na Consola");
+
         }
     }
 }
