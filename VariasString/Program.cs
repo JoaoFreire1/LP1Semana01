@@ -17,6 +17,9 @@ namespace VariasString
             int a = 1;
             int b = 2;
             int c = 3;
+            double xx = 0.12345;
+            int ii = 18;
+
 
             string concatenacao = "Isto " + "são " + 2 + " strings";
             string interpolacao = $"{a} mais {b} é igual a {c}";
@@ -25,6 +28,7 @@ namespace VariasString
             Console.WriteLine (concatenacao);
             Console.WriteLine (interpolacao);
             Console.WriteLine ("Esta frase foi diretamente escrita na Consola");
+            Console.WriteLine ($"{xx,2}");
 
         }
     }
