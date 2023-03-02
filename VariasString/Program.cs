@@ -19,6 +19,23 @@ namespace VariasString
             Console.WriteLine(u1);
             string u2 = "String com Unicode \u2682";
             Console.WriteLine(u2);
+            
+            int x = 1;
+            int y = 2;
+            string a5 = "a" + 2;
+            string b5 = "abc" + x;
+            string c5 = "valor de x e’ {x}";
+            string d5 = "{x} mais {y} e’ igual a {x + y}";
+            string e5 = String.Format("Y e’ {1}, X e’ {0}", x, y);
+
+            Console.WriteLine(@"Verbatim com x = {0}", x);
+
+            Console.WriteLine(a5);
+            Console.WriteLine(b5);
+            Console.WriteLine(c5);
+            Console.WriteLine(d5);
+            Console.WriteLine(e5);
+    
         }
     }
 }
