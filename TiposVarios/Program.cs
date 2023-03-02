@@ -19,6 +19,13 @@ namespace TiposVarios
             Console.WriteLine(S1);
             Console.WriteLine(S2);
 
+            double c = 3.75;
+            double d = 4.20;
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+
+
+
         }
     }
 }
