@@ -24,7 +24,10 @@ namespace TiposVarios
             Console.WriteLine(c);
             Console.WriteLine(d);
 
-
+            bool t = true;
+            bool f = false;
+            Console.WriteLine(t);
+            Console.WriteLine(f);
 
         }
     }
