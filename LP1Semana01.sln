@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlaMundo", "OlaMundo\OlaMun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Argumentos", "Argumentos\Argumentos.csproj", "{BB18BC09-6C87-424E-99F3-A2718E9151C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgLongStrings", "ArgLongStrings\ArgLongStrings.csproj", "{A815DF2B-EFFA-41D6-BACA-41F761FC5B81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{BB18BC09-6C87-424E-99F3-A2718E9151C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB18BC09-6C87-424E-99F3-A2718E9151C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB18BC09-6C87-424E-99F3-A2718E9151C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A815DF2B-EFFA-41D6-BACA-41F761FC5B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A815DF2B-EFFA-41D6-BACA-41F761FC5B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A815DF2B-EFFA-41D6-BACA-41F761FC5B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A815DF2B-EFFA-41D6-BACA-41F761FC5B81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
