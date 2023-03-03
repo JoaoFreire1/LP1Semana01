@@ -9,6 +9,9 @@ namespace VariasString
         {
             Console.OutputEncoding = Encoding.UTF8;
 
+            double xx = 0.12345;
+            int ii = 18;
+
             string a = "Primeira String";
             Console.WriteLine(a);
             string b = "Segunda String";
@@ -35,7 +38,11 @@ namespace VariasString
             Console.WriteLine(c5);
             Console.WriteLine(d5);
             Console.WriteLine(e5);
-    
+
+            Console.WriteLine("{0:0.00}", xx);
+            Console.WriteLine("{0:P1}", xx);
+            Console.WriteLine("{0:X}", ii);
+            Console.WriteLine("{0:C}", ii);
         }
     }
 }
