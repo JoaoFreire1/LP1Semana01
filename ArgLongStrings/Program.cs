@@ -8,15 +8,13 @@ namespace ArgLongStrings
         {
             foreach (string arg in args)
             {
-                for (int i = 0; i > args[i].Length; i ++)
-	            {
-	                int x = args[i].Length;
-                    if (x > 4):
-                        {
-                            Console.WriteLine(args[i]);
-                        }
+                if (arg.Length > 4)
+                    {
+                        String result = arg.ToUpper();
+                        Console.WriteLine(result);
+                    }
 
-	            }
+            
             }
         }
     }
