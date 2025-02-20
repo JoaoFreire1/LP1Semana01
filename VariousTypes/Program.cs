@@ -19,10 +19,14 @@ namespace VariousTypes
             char bbb = '\u0032';
             Console.WriteLine($"{b}, {bb}, {bbb}");
 
-            float c = 3,14f;
-            double cc = 3,15;
-            decimal ccc = 3,16m;
+            float c = 3.14f;
+            double cc = 3.15;
+            decimal ccc = 3.16m;
             Console.WriteLine($"{c}; {cc}; {ccc}");
+
+            bool truezito = true;
+            bool falsinho = false;
+            Console.WriteLine($"{truezito}; {falsinho}");
         }
     }
 }
