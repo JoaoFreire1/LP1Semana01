@@ -8,6 +8,7 @@ namespace ManyStrings
         {
             double xx = 1.23456;
             int ii = 19;
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
 
             string string1 = "Eu nao tenho Unicode";
             string bob = "Eu sou o bob";
