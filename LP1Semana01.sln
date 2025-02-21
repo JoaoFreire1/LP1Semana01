@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyStrings", "ManyStrings\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AskForInput", "AskForInput\AskForInput.csproj", "{BAAABD2B-383E-4F48-BD17-83F7187E26F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Percentagem", "Percentagem\Percentagem.csproj", "{06EB32C4-F918-4984-B4B8-ADB2F38AB5F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{BAAABD2B-383E-4F48-BD17-83F7187E26F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAAABD2B-383E-4F48-BD17-83F7187E26F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAAABD2B-383E-4F48-BD17-83F7187E26F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EB32C4-F918-4984-B4B8-ADB2F38AB5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EB32C4-F918-4984-B4B8-ADB2F38AB5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EB32C4-F918-4984-B4B8-ADB2F38AB5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EB32C4-F918-4984-B4B8-ADB2F38AB5F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
