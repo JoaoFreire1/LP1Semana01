@@ -15,10 +15,14 @@ namespace Percentagem
             float nreal2 = float.Parse(input2);
             float nreal3 = float.Parse(input3);
             float nreal4 = float.Parse(input4);
-            Console.WriteLine(nreal1);
-            Console.WriteLine(nreal2);
-            Console.WriteLine(nreal3);
-            Console.WriteLine(nreal4);
+            string perc1 = $"{nreal1:p2}";
+            string perc2 = $"{nreal2:p2}";
+            string perc3 = $"{nreal3:p2}";
+            string perc4 = $"{nreal4:p2}";
+            Console.WriteLine(perc1);
+            Console.WriteLine(perc2);
+            Console.WriteLine(perc3);
+            Console.WriteLine(perc4);
         }
     }
 }
