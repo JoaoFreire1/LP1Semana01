@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Percentagem
 {
     public class Program
     {
+        CultureInfor.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
         private static void Main(string[] args)
         {
             Console.WriteLine("Insere 4 números reais entre 0 e 1 :");
@@ -19,10 +21,10 @@ namespace Percentagem
             float nreal22 = nreal2 / 100;
             float nreal33 = nreal3 / 100;
             float nreal44 = nreal4 / 100;
-            string perc1 = $"{nreal11:p2}";
-            string perc2 = $"{nreal22:p2}";
-            string perc3 = $"{nreal33:p2}";
-            string perc4 = $"{nreal44:p2}";
+            string perc1 = $"{nreal11,4:p2}";
+            string perc2 = $"{nreal22,4:p2}";
+            string perc3 = $"{nreal33,4:p2}";
+            string perc4 = $"{nreal44,4:p2}";
             Console.WriteLine(perc1);
             Console.WriteLine(perc2);
             Console.WriteLine(perc3);
